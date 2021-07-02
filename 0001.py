@@ -8,7 +8,7 @@
 import random
 words = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijilmnopqrstuvwxyz0123456789"
 
-def getActivationCode(Lenth): 
+def getActCodes(Lenth): 
     i = 0
     while i <200:
         actCode = ''
@@ -22,4 +22,4 @@ def getActivationCode(Lenth):
             i = i
         print(actCodes)
 
-getActivationCode(16)
+getActCodes(16)
